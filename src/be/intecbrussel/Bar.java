@@ -1,3 +1,5 @@
+package be.intecbrussel;
+
 import java.util.function.Function;
 
 public class Bar {

@@ -1,3 +1,5 @@
+package be.intecbrussel;
+
 public class Promoter {
 
     public void luresYouIn(Customer customer) {

@@ -1,3 +1,5 @@
+package be.intecbrussel;
+
 public class WCLady {
 
     public void cleanToilet(Customer customer) {

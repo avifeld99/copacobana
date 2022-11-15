@@ -1,3 +1,5 @@
+package be.intecbrussel;
+
 public class Bartender {
 
     public void serveADrink (String drink, Customer customer) {

@@ -1,3 +1,4 @@
+package be.intecbrussel;
 
 @FunctionalInterface
 public interface AgeChecker {

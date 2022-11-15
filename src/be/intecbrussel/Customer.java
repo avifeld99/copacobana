@@ -1,3 +1,5 @@
+package be.intecbrussel;
+
 public class Customer {
 
     private int age;
@@ -16,7 +18,7 @@ public class Customer {
 
     @Override
     public String toString() {
-        return "Customer{" +
+        return "be.intecbrussel.Customer{" +
                 "age=" + age +
                 '}';
     }

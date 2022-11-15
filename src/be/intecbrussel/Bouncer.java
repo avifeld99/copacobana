@@ -1,3 +1,5 @@
+package be.intecbrussel;
+
 public class Bouncer {
 
     public boolean checkAge(Customer customer) {
