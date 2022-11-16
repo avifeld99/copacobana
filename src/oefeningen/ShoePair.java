@@ -87,8 +87,8 @@ public class ShoePair {
                 {nike, timberLand, balenciaga, nike2, timberLand2, balenciaga2, nike3, timberLand3, balenciaga3};
 
         Stream.of(shoePairs)
-                .filter(shoePair -> shoePair.complete == true)
-                .filter(shoePair -> shoePair.size == 41)
+                //.filter(shoePair -> shoePair.complete == true)
+                .filter(shoePair -> shoePair.size == 41 && shoePair.complete)
                 //.toArray(ShoePair[]::new);
                 .forEach(System.out::println);
         //System.out.println(Arrays.toString(finalShoes));
