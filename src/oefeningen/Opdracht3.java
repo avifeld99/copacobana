@@ -6,7 +6,7 @@ import java.util.function.Supplier;
 public class Opdracht3 {
     public static void main(String[] args) {
 
-        Supplier<Integer> randomNumber = () -> {
+        Supplier <Integer> randomNumber = () -> {
             Random random = new Random();
             return random.nextInt(5);
         };
